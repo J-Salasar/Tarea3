@@ -135,7 +135,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(modificar);
     }
     public void volver(View view){
-        Intent modificar=new Intent(this,ActivityModificar.class);
-        startActivity(modificar);
+        limpiar();
     }
 }
