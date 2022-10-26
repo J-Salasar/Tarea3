@@ -131,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
         text_edad.setText("");
         text_correo.setText("");
         text_direccion.setText("");
+        Intent modificar=new Intent(this,ActivityModificar.class);
+        startActivity(modificar);
     }
     public void volver(View view){
         Intent modificar=new Intent(this,ActivityModificar.class);

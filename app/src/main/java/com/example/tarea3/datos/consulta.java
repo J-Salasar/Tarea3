@@ -1,5 +1,4 @@
 package com.example.tarea3.datos;
-
 public class consulta {
     public static final String persona="personas";
     public static final String id="id";
